@@ -1,0 +1,33 @@
+.infobox--icon img{
+    height: 150px;
+    width: 150px;
+    color:white;
+}
+.infobox{
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    padding: 20px 50px;
+    text-align: center;
+}
+.info h1{
+    font-size: 40px;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+   .infobox--icon{
+       text-align: center;
+   }
+   .infobox, 
+   .info{
+        padding: 30px 0;
+    }
+}
+
+/* Ipad */
+@media (max-width: 768px) {
+  
+  }

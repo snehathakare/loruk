@@ -1,0 +1,27 @@
+.footer{
+    background-color: #002240;
+    height: 200px;
+    text-align: center;
+    justify-content: space-around;
+}
+.footer--icons{
+    cursor: pointer;
+}
+.footer--icons a{
+    margin-left: 10px;
+} 
+.footer--nav{
+    cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .footer{
+        height: auto;
+    }
+    .footer--icons {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    
+}
